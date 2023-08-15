@@ -1,6 +1,6 @@
 # Profile Card Component
 
-Checkout out the live site [here](#).
+Checkout out the live site [here](https://elorenn.github.io/Profile-card-component/).
 
 ![PProfile CardComponent ](assets/design/desktop-design.jpg)
 
