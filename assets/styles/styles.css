@@ -24,7 +24,7 @@ body {
   margin-bottom: 3rem;
 }
 
-h1 {
+h1, h2 {
   font-size: 18px;
   color: var(--very-dark-desaturated-blue);
 }
@@ -49,7 +49,7 @@ span {
   margin: 5px;
 }
 
-.stats h1 {
+.stats h2 {
   margin: 0;
 }
 
