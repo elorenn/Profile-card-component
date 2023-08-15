@@ -4,8 +4,6 @@ Checkout out the live site [here](#).
 
 ![PProfile CardComponent ](assets/design/desktop-design.jpg)
 
-![Profile Card Component mobile state](assets/design/mobile-design.jpg)
-
 ### Built with
 
 - Semantic HTML5 markup
