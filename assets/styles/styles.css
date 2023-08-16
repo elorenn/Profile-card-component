@@ -24,7 +24,8 @@ body {
   margin-bottom: 3rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 18px;
   color: var(--very-dark-desaturated-blue);
 }
@@ -75,31 +76,13 @@ span {
   position: fixed;
   top: 0;
   left: 0;
+
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 40vh, left 50vw top 50vh;
 }
 
-.background::before {
-  content: "";
-  background-image: url("../images/bg-pattern-top.svg");
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-position: bottom right;
-  left: -50%;
-  top: -40%;
-}
-
-.background::after {
-  content: "";
-  background-image: url("../images/bg-pattern-bottom.svg");
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-position: top left;
-  right: -50%;
-  bottom: -50%;
-}
 
 .card {
   background-color: var(--white);
